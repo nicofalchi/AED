@@ -1,14 +1,12 @@
 SOURCE = hello.cpp
 BIN = hello.exe
-OBJ = hello.o
+OBJ = hell.o
 CXX = g++
 CXXFLAGS = -std=c++17
 
-$(BIN):(OBJ)
-      $(CXX) $(OBJ) -o $(OBJ) $(CXXFLAGS)
-
-run:$(BIN)
-     $(BIN)
-
+$(BIN): $(OBJ)
+	$(CXX) $(OBJ) -o $(BIN) $(CXXFLAGS)
+run: $(BIN)
+	$(BIN)
 $(OBJ): $(SOURCE)
-      $(CXX) -c$(SOURCE) -o	$(OBJ) $(CXXFLAGS) 	  
+	$(CXX)	-c $(SOURCE) -o $(OBJ) $(CXXFLAGS) 	  
