@@ -12,7 +12,7 @@
    * ! Modelo IPO (https://github.com/nicofalchi/AED/blob/master/archivos/IPO01.jpg)
 
 * Etapa 2 
-  * Se eligio utilizar el tipo de variable float para poder trabajar con numeros decimales, se escribio el codigo para cada variable en el orden de, salida a pantalla de texto para indicar se deben ingresar numeros declaracion de variable para almacenar datos entrada de datos para su respectiva variable   
+  * Se eligio utilizar el tipo de variable float para poder trabajar con numeros decimales, se escribio el codigo para cada variable en el orden de, salida a pantalla de texto para indicar que se deben ingresar numeros los cuales pueden ser todos los Z, declaracion de variable para almacenar datos de entrada para su respectiva variable. Para la operacion se uso el operador suma    
   * Representacion Textual 
     - Ingrese un numero
     - Leer a
