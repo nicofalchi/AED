@@ -6,6 +6,7 @@
 * Nicolas Alcides Alejandro
 * Etapa 1
   * Dado un año, determinar si es bisiesto.
+  * Se uso la instruccion random para que el sistema elija años en 2020 y 2024, siempre va a dar assertion failed ya que se usaron dos funciones is bisiesto y una tiene el not para dar como falso para 
 * Etapa 2 
   * Lexico N -> N
   * Prototipo 
